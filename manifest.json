@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "OgTab",
+    "version": "1.0",
+    "description": "Manage and organize your open tabs easily.",
+    "permissions": ["tabs", "tabGroups", "storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
